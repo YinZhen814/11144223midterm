@@ -16,7 +16,7 @@ header {
     margin: 0px;
     padding: 80px;
     background-size: cover;
-    background-image: url(/image/header.jpg);
+    background-image: url(../image/header.jpg);
 }   
 
 nav {
