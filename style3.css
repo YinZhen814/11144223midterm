@@ -1,0 +1,106 @@
+.skill{
+    position: relative;
+    left: 80px;
+}
+
+.skills{
+    margin: 20px;
+    padding: 10px;
+}
+.skill-name{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    color: #20334d;
+}
+.skill-bar{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(243, 191, 80);
+}
+.loading{
+    width: 100%;
+    height: auto;
+    margin-left: 1cm;
+}
+
+.linebox{
+    padding: 2px;
+    width: 60%;
+    height: 35px;
+    border: 3.5px solid #457B9D;
+    border-radius: 20px;
+}
+
+.line1{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #457B9D;
+    animation: loading1 8s forwards cubic-bezier(0,0,0,0) infinite;
+}
+.line2{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #457B9D;
+    animation: loading2 8s forwards cubic-bezier(0,0,0,0) infinite;
+}
+.line3{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #457B9D;
+    animation: loading3 8S forwards cubic-bezier(0,0,0,0) infinite;
+}
+.line4{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #457B9D;
+    animation: loading4 8s forwards cubic-bezier(0,0,0,0) infinite;
+}
+.line5{
+    height: 25px;
+    border-radius: 20px;
+    background-color: #457B9D;
+    animation: loading5 8s forwards cubic-bezier(0,0,0,0) infinite;
+}
+
+@keyframes loading1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+@keyframes loading2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes loading3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes loading4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes loading5{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+

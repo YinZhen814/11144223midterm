@@ -1,0 +1,45 @@
+.background{
+    background-color: white;
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.school{
+    background-color:  white;
+    padding:0px;
+    margin: 0px ;
+}
+.school-img{
+    background-color:  white;
+    padding: 0px;
+    margin: 20px;
+    
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+    
+}
+.school-img:hover{
+    transform:scale(1.1,1.1);
+}
+.school-name{
+    background-color:white;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.imgschool{
+
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+.schoolname{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #20334d;
+}

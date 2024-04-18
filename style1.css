@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #d1edf3;
+    margin: 0px;
+}
+
+header {
+    background-color:  #1D3557;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 80px;
+    background-size: cover;
+    background-image: url(image/header.jpg);
+}   
+
+nav {
+    background-color: #457B9D;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:serif;
+    
+    font-size: 25px;
+    display: inline-block;
+  /*同一行內分區塊*/
+    color:  white;
+   
+}
+
+nav a:hover
+
+/*偵測滑鼠移標*/
+    {
+    background-color: #d1edf3;
+    color:  #25436d;
+
+}
+
+footer {
+    background-color:#457B9D;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+.top{
+    color: #0e0e0f;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(50, 49, 50, 0.155);
+    position: fixed;
+    
+    right: 20px;
+    bottom: 10px;
+    
+}
+.top-con{
+    color: #a3a9b1;
+    text-decoration: none;
+}
+.top:hover
+    {
+    background-color: rgb(247, 200, 234);
+    
+
+}
+.top-con:hover
+    {
+    
+    color:  #25436d;
+
+}
+
+.card{
+    background-color: white;
+    background-size: cover;
+    padding: 40px;
+    margin: 40px ;
+    border-radius: 15px;
+    /*圓角*/
+
+}
+h2{
+    font-size: 50px;
+    color: #20334d;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.pic-circle{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 10px double #8ca8b9;
+    
+    
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+   
+}
+.pic-circle:hover{
+    transform:scale(1.1,1.1);   
+}
+.infor{
+    width: 50px;
+    height: 50px;
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+}
+.infor:hover{
+    transform:scale(1.1,1.1);   
+}
+.information{
+    font-size: 30px;
+    color: #20334d;
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+}
+.information:hover{
+    transform:scale(1.1,1.1);   
+}
+.light{
+    width: 70px;
+    height: 70px;
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+}
+.light:hover{
+    transform:scale(1.1,1.1);   
+}
+.pic-imfor{
+    background-color: #d1edf3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0px 20px;
+    height: 550px;
+    
+}
+
+.content{
+    
+    background-color: #d1edf3;
+    border-radius: 20px;
+    margin: 0px 20px;
+    padding: 60px;
+    width: 80%;
+    height: 550px;
+}
+.icon1{
+    border-radius: 50%;
+    width: 50px;
+    border: 50px;
+    height: 50px;
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+}
+.icon1:hover{
+    transform:scale(1.1,1.1);   
+}
+
+.icon-content{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #20334d;
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+}
+.icon-content:hover{
+    transform:scale(1.1,1.1);   
+}
+
+.detail{
+    list-style: none;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#20334d;
+    
+}  
+.motto{
+    font-size: 24px;
+    color: #20334d;
+    transform:scale(1,1);
+    transition: all 0.3s ease-out;
+
+}
+.motto:hover{
+    transform:scale(1.1,1.1);   
+}
+ .hr1{
+    border: 1px solid #20334d; 
+
+} 
+.hr2{
+    border-top: 2px dashed grey;
+
+}
+.pre{
+   font-size: 50px;
+   color: #20334d;
+   text-align: start;
+}
